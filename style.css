@@ -1,5 +1,6 @@
-body {
+html, body {
     margin: 0px;
+    height: 100%;
 }
 
 a {
@@ -15,9 +16,17 @@ h2 {
     font-size: 15pt;
 }
 
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -40px;
+    background-color: #D9DAD5;
+}
+
 header{
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #020532;
 }
 
@@ -32,7 +41,6 @@ nav {
 
 nav li {
     display: inline;
-    padding: 10px;
 }
 
 nav a {
@@ -40,21 +48,23 @@ nav a {
     padding-left: 20;
     padding-right: 20;
     color: #605d70;
+    font-size: 13pt;
 }
 
 main {
-    background-color: #D9DAD5;
     text-align: center;
     color: #020432;
 }
 
 #contact {
     font-size: 20pt;
+    padding-bottom: 30px;
 }
 
 #services {
     text-align: left;
     font-size: 15pt;
+    padding-bottom: 80px;
 }
 
 .centerRect {
@@ -73,21 +83,27 @@ main {
 }
 
 #bottomLine {
-    background-image: url(images/cien_winieta.png);
+    background-image: url(images/cien_stopka.png);
     height: 8px;
     width: 100%;
-    margin-top: 30px;
+    background-color: #D9DAD5;
 }
 
 footer {
-    color: #605d70;
+    height: 40px;
+}
+
+.copyright {
+    height: 22px;
     text-align: center;
-    padding: 20px;
     font-size: 8pt;
     font-family: sans-serif;
     background-color: #020532;
+    color: #605d70;
+    padding-top: 10px;
 }
 
 #services {
     display: none;
 }
+
