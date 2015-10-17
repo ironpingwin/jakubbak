@@ -8,7 +8,7 @@ a {
 }
 
 a:hover {
-    font-weight: bold;
+    color: #EDEEE9;
 }
 
 h2 {
@@ -22,7 +22,6 @@ header{
 }
 
 nav {
-    color: #605d70;
     text-align: center;
     border-top-width: 1px;
     border-top-color: #605D70;
