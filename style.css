@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    background-color: #020532;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-size: 15pt;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    color: #605d70;
+    text-align: center;
+    border-top-width: 1px;
+    border-top-color: #605D70;
+    border-top-style: solid;
+
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+nav a {
+    padding: 10px;
+    padding-left: 20;
+    padding-right: 20;
+    color: #605d70;
+}
+
+main {
+    background-color: #D9DAD5;
+    text-align: center;
+    color: #020432;
+}
+
+#contact {
+    font-size: 20pt;
+}
+
+#services {
+    text-align: left;
+    font-size: 15pt;
+}
+
+.centerRect {
+    max-width: 700px;
+    margin: auto;
+    background-image: url(images/visu_zakres.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#topLine {
+    background-image: url(images/cien_winieta.png);
+    height: 8px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#bottomLine {
+    background-image: url(images/cien_winieta.png);
+    height: 8px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer {
+    color: #605d70;
+    text-align: center;
+    padding: 20px;
+    font-size: 8pt;
+    font-family: sans-serif;
+}
+
+#services {
+    display: none;
+}

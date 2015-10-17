@@ -1,1 +1,72 @@
-test
+<html>
+
+    
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Kancelaria Radcy Prawnego Jakub Bąk</title>
+    
+    <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+    <script type="text/javascript">
+        
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="images/nazwa.png">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="$('#services').show(); $('#contact').hide();">Zakres usług</a></li>
+            <li><a href="#" onclick="$('#services').hide(); $('#contact').show();">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="topLine"></div>
+        <article id="contact">
+            Radca Prawny Jakub Bąk<br>
+            nr wpisu WA-11377<br>
+            tel.: 662 034 884<br>
+            email: kontakt@kancelariajakubbak.pl<br>
+            
+            <img src="images/visu_kontakt.png">
+        </article>
+        <article id="services">
+            <div class="centerRect">
+                <h1>Zakres usług</h1>
+
+                <h2>prawo cywilne:</h2>
+                - reprezentacja przed sądami w negocjacjach oraz rozmowach ugodowych;<br>
+                - sporządzanie umów;
+
+                <h2>prawo administracyjne:</h2>
+                - reprezentacja przed urzędami administacji publicznej;<br>
+                - reprezentacja w postępowaniu sądowo-administracyjnym;<br>
+
+                <h2>prawo kanoniczne:</h2>
+                - m.in. sprawy o stwierdzenie nieważności małżeństwa;
+
+                <h2>prawo autorskie oraz inne prawa własności intelektualnej;</h2>
+
+                <h2>znaki towarowe;</h2>
+
+                <h2>prawo konkurencji;</h2>
+
+                <h2>prawo budowlane;</h2>
+
+                <h2>prawo nieruchomości;</h2>
+
+                <h2>prawo gospodarcze;</h2>
+
+                <h2>prawo handlowe;</h2>
+            </div>
+        </article>
+        <div id="bottomLine"></div>
+    </main>
+    <footer>
+        Copyright 2015 © Radca Prawny Jakub Bąk
+    </footer>
+</body>
+
+</html>
