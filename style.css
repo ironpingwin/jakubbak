@@ -1,6 +1,8 @@
 html, body {
     margin: 0px;
     height: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15pt;
 }
 
 a {
@@ -11,15 +13,15 @@ a:hover {
     color: #EDEEE9;
 }
 
-h2 {
-    margin-bottom: 0px;
-    font-size: 15pt;
+h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 26pt;
 }
 
 .page-wrap {
     min-height: 100%;
     /* equal to footer height */
-    margin-bottom: -40px;
+    margin-bottom: -70px;
     background-color: #D9DAD5;
 }
 
@@ -28,6 +30,10 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #020532;
+}
+
+header img {
+    padding: 10px;
 }
 
 nav {
@@ -39,6 +45,10 @@ nav {
     padding-bottom: 5px;
 }
 
+nav ul {
+    padding: 0px;
+}
+
 nav li {
     display: inline;
 }
@@ -48,7 +58,6 @@ nav a {
     padding-left: 20;
     padding-right: 20;
     color: #605d70;
-    font-size: 13pt;
 }
 
 main {
@@ -57,7 +66,7 @@ main {
 }
 
 #contact {
-    font-size: 18pt;
+    font-size: 20pt;
     padding-bottom: 30px;
 }
 
@@ -72,7 +81,7 @@ main {
     margin: auto;
     background-image: url(images/visu_zakres.png);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
 }
 
 #topLine {
@@ -90,20 +99,19 @@ main {
 }
 
 footer {
-    height: 40px;
+    height: 70px;
+    background-color: #020532;
 }
 
 .copyright {
-    height: 22px;
     text-align: center;
     font-size: 8pt;
     font-family: sans-serif;
-    background-color: #020532;
     color: #605d70;
-    padding-top: 10px;
+    margin-top:20px;
+
 }
 
 #services {
     display: none;
 }
-
